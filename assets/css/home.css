@@ -252,3 +252,48 @@ header .container .row .col-4 .symbol {
 .next {
     right: 10px;
 }
+
+footer img {
+    height: 27px;
+}
+
+.phone {
+    color: orange;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    font-size: 25px;
+}
+
+.phone_card {
+    border: 1px solid grey;
+    position: relative;
+}
+
+.phone_card p {
+    margin-left: 50px;
+    margin-top: 15px;
+    color: grey;
+}
+
+footer .useful {
+    font-weight: 600;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+footer ul li {
+    padding: 5px;
+}
+
+footer .payment {
+    height: 20px;
+    float: right;
+}
+
+footer .footer_copy {
+    color: grey;
+}

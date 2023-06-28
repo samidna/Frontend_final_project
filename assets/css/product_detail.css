@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333333;
+}
+
+header .container .row .col-6 p {
+    color: #A9A9A9;
+    font-size: 13px;
+}
+
+header .container .row .col-6 ul li a {
+    text-decoration: none;
+    color: #A9A9A9;
+    font-size: 13px;
+}
+
+header .container .row .col-6 ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+header .container .row .col-6 ul li {
+    padding: 10px;
+}
+
+header .container .row hr {
+    border: 1px solid white;
+}
+
+header .container .row .col-5 .search_input {
+    border-radius: 25px;
+    border: none;
+    width: 500px;
+    height: 45px;
+}
+
+header .container .row .col-5 .search_input::placeholder {
+    padding-left: 40px;
+}
+
+header .container .row .col-5 {
+    position: relative;
+}
+
+header .container .row .col-5 i {
+    position: absolute;
+    top: 13px;
+    left: 27px;
+}
+
+header .container .row .col-4 p {
+    color: white;
+    font-size: 13px;
+    color: #A9A9A9;
+}
+
+header .container .row .col-4 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+header .container .row .col-4 i {
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+header .container .row .col-4 .symbol {
+    margin-left: 13px;
+}
+
+
+.container .row_three .col-3 span {
+    margin-right: 50px;
+}
+
+.container .row_three .col-6 ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.container .row_three .col-6 ul li {
+    display: inline-block;
+}
+
+.container .row_three .border-end {
+    height: 20px;
+}
+
+.container .row_three .col-3 p {
+    float: right;
+    color: #A9A9A9;
+}
+
+.container .row_three .col-3 span {
+    color: black;
+}
+
+footer img {
+    height: 27px;
+}
+
+.phone {
+    color: orange;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    font-size: 25px;
+}
+
+.phone_card {
+    border: 1px solid grey;
+    position: relative;
+}
+
+.phone_card p {
+    margin-left: 50px;
+    margin-top: 15px;
+    color: grey;
+}
+
+footer .useful {
+    font-weight: 600;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+footer ul li {
+    padding: 5px;
+}
+
+footer .payment {
+    height: 20px;
+    float: right;
+}
+
+footer .footer_copy {
+    color: grey;
+}

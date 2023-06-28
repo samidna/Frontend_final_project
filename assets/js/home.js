@@ -21,3 +21,4 @@ function showSlide(n) {
   }
   slides[slideIndex].classList.add("active");
 }
+
