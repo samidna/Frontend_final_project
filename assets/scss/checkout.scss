@@ -1,0 +1,144 @@
+$color_1: #A9A9A9;
+$color_2: white;
+$color_3: black;
+$color_4: orange;
+$color_5: grey;
+$background-color_1: #333333;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	background-color: $background-color_1;
+	.container {
+		.row {
+			.col-6 {
+				p {
+					color: $color_1;
+					font-size: 13px;
+				}
+				ul {
+					li {
+						a {
+							text-decoration: none;
+							color: $color_1;
+							font-size: 13px;
+						}
+						padding: 10px;
+					}
+					display: flex;
+					flex-direction: row-reverse;
+				}
+			}
+			hr {
+				border: 1px solid white;
+			}
+			.col-5 {
+				.search_input {
+					border-radius: 25px;
+					border: none;
+					width: 500px;
+					height: 45px;
+					&::placeholder {
+						padding-left: 40px;
+					}
+				}
+				position: relative;
+				i {
+					position: absolute;
+					top: 13px;
+					left: 27px;
+				}
+			}
+			.col-4 {
+				p {
+					color: $color_2;
+					font-size: 13px;
+					color: $color_1;
+				}
+				display: flex;
+				flex-direction: row-reverse;
+				i {
+					color: $color_2;
+					font-size: 20px;
+					padding-left: 15px;
+					padding-bottom: 5px;
+				}
+				.symbol {
+					margin-left: 13px;
+				}
+			}
+		}
+	}
+}
+.container {
+	.row_three {
+		.col-3 {
+			span {
+				margin-right: 50px;
+				color: $color_3;
+			}
+			p {
+				float: right;
+				color: $color_1;
+			}
+		}
+		.col-6 {
+			ul {
+				li {
+					a {
+						text-decoration: none;
+						color: $color_3;
+						padding: 10px;
+					}
+					display: inline-block;
+				}
+			}
+		}
+		.border-end {
+			height: 20px;
+		}
+	}
+}
+footer {
+	img {
+		height: 27px;
+	}
+	.useful {
+		font-weight: 600;
+	}
+	ul {
+		li {
+			a {
+				text-decoration: none;
+				color: $color_5;
+			}
+			padding: 5px;
+		}
+	}
+	.payment {
+		height: 20px;
+		float: right;
+	}
+	.footer_copy {
+		color: $color_5;
+	}
+}
+.phone {
+	color: $color_4;
+	position: absolute;
+	top: 25px;
+	left: 10px;
+	font-size: 25px;
+}
+.phone_card {
+	border: 1px solid grey;
+	position: relative;
+	p {
+		margin-left: 50px;
+		margin-top: 15px;
+		color: $color_5;
+	}
+}
